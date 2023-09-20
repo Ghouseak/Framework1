@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name ="demoproj" parallel="false">
+
+ <listeners>
+    <listener class-name ="com.demo.utilities.Reporting"/>
+ </listeners>
+
+<test name="Apptest">
+<parameter name="browser" value="chrome"/>
+
+<classes>
+<!--class name="com.demo.testcases.Explorer"/>-->
+  <class name="com.demo.testcases.Metadata"/>   
+  </classes>
+</test>
+</suite>
